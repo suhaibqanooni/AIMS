@@ -1,0 +1,147 @@
+
+#header{
+    color: white;
+    }
+    #logo{
+        color: blue;
+        font-family: Agency FB;
+    }
+    #menu{
+        background-color: rgb(91, 91, 251);
+        list-style: none;
+        float: right;
+        margin: 0;
+        padding: 0;
+    }
+    #menu li{
+        display: inline-block;
+    }
+    #menu li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 15px 15px;
+        display: block;
+    }
+    #menu li a:hover{
+        background-color: white;
+        color: blue;
+    }
+
+    .carousel-item{
+        height: 100vh;
+        min-height: 300px;
+        background: no-repeat scroll center scroll;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .carousel-item::before{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: black;
+        opacity: 0.7;
+    }
+    .carousel-caption{
+        bottom: 180px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .carousel-caption h5{
+        color: blue;
+        font-size: 100px;
+        font-weight: 700;
+    }
+    .carousel-caption p{
+        font-size: 18px;
+        top: 2rem;
+    }
+    .slider-btn .btn{
+        background-color: blue;
+        color: white;
+        border-radius: 0;
+        padding: 1.5rem 2rem;
+        font-size: 1rem;
+        margin-right: 15px;
+    }
+    .slider-btn .btn-2{
+        background-color: white;
+        color: blue;
+    }
+    .starter{
+        width: 100%;
+        height: 200px;
+    }
+    .starter .rightLogo{
+        float: right;
+        width: 400px;
+        height: 100%;
+    }
+    .starter .leftLogo{
+        height: 100%;
+        margin-left: 10px;
+    }
+    .starter img{
+        width: 100%;
+        height: 100%;
+    }
+    .left-side{
+        background-color: rgb(222, 243, 251);
+    }
+    .right-side{
+        border: 1px solid blue;
+        border-radius: 10px;
+        background: rgb(244, 250, 251);
+    }
+    .right-side #map-img{
+        width: 150px;
+    }
+    .right-side #lines{
+        height: 3px;
+        color: blue;
+        border-radius: 50px;
+    }
+    marquee{
+        margin-top: 5px;
+    }
+    marquee a{
+        text-decoration: none;
+        color: gray;
+    }
+    #parters{
+        font-size: 20px;
+        color: orange;
+
+    }
+    table td #undp-logo{
+        width: 200px;
+        height: 250px;
+    }
+    .card{
+        background-color: rgb(222, 243, 251);
+        border: none;
+    }
+    .card .card-body .card-text{
+        float: right;
+    }
+    #brows-services{
+        color: skyblue;
+        font-size: 18px;
+    }
+    .footer{
+        height: 70px;
+        width: 100%;
+        text-align: center;
+        background: rgb(97, 125, 250);
+        color: white;
+    }
+    .footer a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer a:hover{
+        text-decoration: underline;
+    }
