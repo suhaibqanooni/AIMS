@@ -116,6 +116,7 @@
     }
     #about-box #p2{
         font-size: 15px;
+        color: #FFFFFF;
     }
     .left-side img{
         width: 90%;
@@ -161,6 +162,33 @@
         color: rgb(56, 83, 204);
         font-size: 20px;
     }
+    .line_img{
+        width: 70%;
+        margin-left: 170px;
+        border: none;
+        border-top: 3px solid blue;
+        border-bottom: 3px solid blue;
+        text-align: center;
+        padding: 5px 0;
+    }
+    .line_img .img{
+        width: 100px;
+        height: 90px;
+        margin-left: -5px;
+    }
+    .weather .doc_img{
+        width: 200px;
+        height: 150px;
+    }
+    .weather hr{
+        width: 70%;
+        height: 3px;
+        color: rgb(56, 83, 204);
+        align-self: center;
+    }
+    .glob{
+        height: 100%;
+    }
     @media(max-width:1000px){
         
     }
@@ -190,6 +218,7 @@
         }
         #about-box #p2{
             font-size: 8px;
+            color: #FFFFFF;
         }
         .back_to_top{
             text-decoration: none;
